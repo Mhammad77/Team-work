@@ -3,6 +3,72 @@
     padding: 0;
     margin: 0;
 }
+.sh-container{
+    background: #202020;
+}
+.sh-center{
+    width: 90%;
+    margin: auto;
+}
+.sh-left-right{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* .sh-left-right{
+    margin-top: 60px;
+} */
+.sh-left button{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    padding: 0px 10px;  
+    letter-spacing: 1px;
+    margin-top: 50px;
+    color: #202020;
+    cursor: pointer;
+    background: #B8A4FD;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+.sh-left button:hover{
+    background-color: bisque;
+    border-radius: 10px ;
+    
+}
+.sh-left p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+.sh-left{
+    width: 50%;
+    margin-right: 100px;
+}
+.sh-left h1{
+    color:#FFFDF8;
+}
+.sh-left p{
+    color:#FFFDF8;
+}
+.Shahrom{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.sh-right{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.shahr{
+    margin: 40px  0px;
+}
+.sh-right{
+    display: flex;
+    /* justify-content: space-between;   */
+    flex-wrap: wrap;
+    gap: 20px 20px;
+
 .kh-container{
     border-bottom: 1px solid;   
 }
