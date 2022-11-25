@@ -3,3 +3,158 @@
     padding: 0;
     margin: 0;
 }
+.kh-container{
+    border-bottom: 1px solid;   
+}
+.kh-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kh-left{
+    display: flex;
+    align-items: center;
+}
+.kh-left img{
+    padding: 15px 40px;
+}
+.kh-left a{
+    padding: 22px 40px;
+    border-left: 1px solid;
+
+}
+.kh-left a:hover{
+    color: rgb(25, 94, 255);
+}
+
+.kh-log{
+    width: 158px;
+    text-align: center;
+    border-left: 1px solid;
+    padding: 22px 40px;
+}
+.kh-start{
+    width: 158px;
+    text-align: center;
+    border-left: 1px solid;
+    padding: 22px 40px;
+}
+.kh-right{
+    display: flex;
+
+}
+.kh-log:hover{
+    background-color:  #B8A4FD;
+}
+.kh-start:hover{
+    background-color:  #B8A4FD;
+}
+
+.kh-navbar a{
+    text-decoration: none;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+letter-spacing: 0.27px;
+
+color: #202020;
+}
+.kh-center{
+    width: 90%;
+}
+.kh-container1{
+    display: flex;
+    justify-content: center;
+}
+.kh-all{
+    margin-top: 80px;
+    display: flex;
+    margin-bottom: 80px;
+}
+.kh-leftt h1{
+font-style: normal;
+font-weight: 400;
+font-size: 110px;
+line-height: 110px;
+color: #202020;
+}
+.kh-leftt p{
+    padding: 20px 0px 20px 10px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+letter-spacing: 0.27px;
+color: #202020;
+}
+.kh-leftt button{
+    padding: 10px 20px;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+color: #202020;
+background: #B8A4FD;
+border-radius: 4px;
+border: none;
+
+}
+.kh-leftt button:hover{
+    background: #6f47ff;
+    color: white;
+
+}
+.kh-alll{
+    display: flex;
+    padding: 100px 0px;
+}
+.kh-lefttt{
+    width: 50%;
+}
+.kh-righttt{
+    width: 50%;
+}
+.kh-container2{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.kh-centerrr{
+    width: 90%;
+}
+.kh-righttt h1{
+    font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 100px;
+color: #FFFDF8;
+}
+.kh-righttt p{
+    padding: 20px 0px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+
+letter-spacing: 0.27px;
+
+color: #FFFDF8;
+}
+.kh-righttt button{
+    margin-top: 80px;
+    padding: 10px 20px;
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+color: #202020;
+background: #B8A4FD;
+border-radius: 4px;
+}
+.kh-righttt button:hover{
+background: #502ad5;
+color: white;
+}
+.kh-righttt span{
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
