@@ -3,6 +3,82 @@
     padding: 0;
     margin: 0;
 }
+
+
+.NHcontainer{
+   margin-top: 53px;
+   display: flex;
+   justify-content: center;
+}
+.NHcentr{
+    width: 90%;
+}
+.NHread{
+    display: flex;
+}
+.NHtext{
+    width: 60%;
+}
+.NHpart1{
+    width: 425px;
+    border-right: 1px solid #202020;
+    border-bottom: 1px solid #202020;
+    width: 50%;
+}
+.NHpart1 h1{
+  font-weight: 400;
+  font-size: 50px;
+  color: #202020;
+}
+.NHpart1 p{
+    padding-top: 39px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.27px;
+    color: #202020;
+}
+.NHstart{
+    padding-top: 112px;
+
+}
+.NHstart button{
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #B8A4FD;
+    color: #202020;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.24px;
+    cursor: pointer;
+
+}
+.NHstart button:hover{
+    background: aquamarine;
+    transition: 0.7s ease;
+}
+.NHpart2{
+    width: 50%;
+}
+.NHpart2{
+    padding: 100px 160px 100px 85px;
+    border-bottom: 1px solid #202020;
+}
+.NHread1{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.NHpart11{
+    border-right: none;
+    border-left: 1px solid #202020 ;
+    padding: 100px 0px 0px 80px;
+}
+.Nhpart22{
+    width: 36%;
+    padding-right:5px;
+
 .flex1{
    
     display: flex;
@@ -353,4 +429,3 @@ color: white;
     padding: 8px 15px;
     border: 1px solid white;
     border-radius: 10px;
-}
